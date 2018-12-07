@@ -10,7 +10,7 @@
 <body>
     <div class="en-tete">
         <img src="">
-        <p>An eagle's meal</p>
+        <h1>An eagle's meal</h1>
     </div>
     <div class="tout">
         
@@ -18,14 +18,20 @@
 
                 <img src="totemGauche3.png" class="banniere" id="banniereG">
                 
-
-            <div class="canvas">
-
-            </div>
+                <canvas id="canvas">
+                        <img src="images/player/0.png" id="player0">
+                        <img src="images/player/1.png" id="player1">
+                        <img src="images/player/2.png" id="player2">
+                        <img src="images/enemy/0.png" id="enemy0">
+                        <img src="images/enemy/1.png" id="enemy1">
+                        <img src="images/enemy/2.png" id="enemy2">
+                        <img src="images/floor.png" id="floor">
+                        <img src="images/moon.png" id="moon">
+                    </canvas>
             <img src="totemDroit2.png" class="banniere" id="banniereD">
         </div>
         <div class="regle">
-                <h1> Règles du jeu : </h1>
+                <h2> Règles du jeu : </h2>
                 <p> Attraper les proies au sol, tout en évitant les ennemis.</p>
                 <p> Espace : Fait plonger l'aigle</p>
             </div>
@@ -33,6 +39,10 @@
 
     </div>
 
+        <script src='js/enemy.js'></script>
+        <script src='js/player.js'></script>
+        <script src='js/floor.js'></script>
+        <script src='js/main.js'></script>
 </body>
 
 </html>

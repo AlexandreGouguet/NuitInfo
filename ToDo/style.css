@@ -1,0 +1,101 @@
+*
+{
+	font-family: "arial black", Arial, sans-serif;
+	/*border: solid blue 2px;*/
+}
+#formulaire
+{
+
+	height: 1000px;
+}
+textarea
+{
+	width: 400px;
+	height: 50px;
+}
+:focus
+{
+	background-color: rgba( 240,220,150,0.3);
+}
+
+
+
+/* ul pricipal de la zone menu */
+#menu ul {
+margin: auto;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+/* style de tous les li de la zone menu */
+#menu>ul>li {
+ display: inline-block;
+vertical-align: top;
+ margin-left: 0px;
+ padding-left: 0px;
+ background-color: black;
+}
+/* style de tous les liens dans un li contenu dans la zone menu */
+#menu li a {
+display: block;
+width: 100px;
+color: white;
+text-decoration: none;
+padding-left: 0px;
+margin-left: 0px;
+}
+/* style de tous les liens survolés dans un li contenu dans la zone menu */
+#menu li a:hover {
+ color: blue;
+}
+/* sous menu non affiché par défaut*/ 
+#menu ul li ul{
+	display:none;
+}
+/* affichage du sous menu au survol*/
+#menu ul li:hover ul{
+	display: block;
+}
+/* affichage vertical du sous menu */
+#menu li:hover ul li {
+ float: none;
+}
+header{
+	position: fixed;
+	width: 99%;
+	background-color: white;
+	display: inline;
+	border:solid black 2px;
+	border-radius: 12px;
+	background-color: #7DEAEE;
+	margin-bottom: 10px;
+}
+
+header h1 {
+
+	margin: 10px;
+}
+
+header * {
+	text-align: center;
+	margin: auto;
+}
+
+
+section{
+padding-top: 150px;
+margin-left: 200px;
+margin-right: 200px;
+
+
+}
+body{
+	background-image: url('img/background.png');
+}
+
+fieldset{
+	background-color: #BBFCFF;
+	border-radius: 20px;
+
+
+}

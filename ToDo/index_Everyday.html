@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+	<html>
+
+	<head>
+		<title>Nouvelle Page</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div id="formulaire">
+				<form method="post" action="traitement.php">
+					<header>
+						<h1>ToutDoux Manager</h1>
+						<nav id="menu" >
+							<ul>
+								<li><a href="#">To Do List</a>
+								<ul>
+									<li><a href="#">Everyday</a></li>
+									<li><a href="Every_Expeditions.html">Expedition</a></li>
+									<li><a href="#">Ponctuel</a></li>
+								</ul></li>
+								<li><a href="#">Itinéraire</a>
+								
+								</li>
+								<li><a href="#">A voir</a></li>
+							</ul>
+						</nav><br>
+						<h2>To Do List</h2>
+					</header>
+					
+					<section>
+						<fieldset>
+						<legend>To Do.ay</legend>
+
+							<p><label for="nom">Entrez votre nom</label>:<input type="text" name="Nom" autofocus id="nom" required /></p>
+							<p>Entrez votre prénom:<input type="text" name="Prenom" required /></p>
+							<p>Votre date de naissance:<input type="date" name="date" required /></p>
+							<p>Entrez votre pseudo:<input type="text" name="pseudo" maxlength="15" placeholder="15 caractères max." required /></p>
+							<p>Entrez votre mot de passe:<input type="password" name="mdp" required /></p>
+						</fieldset>
+						<fieldset>
+							<legend>Bullshit</legend>
+
+							<p>Combien avez-vous de jambes?<input type="number" name="jambe" min="0" max="2" step="1">
+							<p>Décrivez-vous en quelques mots<br />
+								<textarea name="description" placeholder="(Ex:Je suis une gentille petite fille)"></textarea></p>
+							<p>De quel partie politique êtes vous?
+								<input type="range" min="0" max="4" step="1" name="partie"></p>
+							<p>Votre couleur préféré:<input type="color" name="color" /></p>
+							<p>Quel animal aimez vous:<br />
+								<input type="checkbox" name="chien" />Chien<br />
+								<input type="checkbox" name="chat" />Chat<br />
+								<input type="checkbox" name="hamster" />Hamster<br />
+								<input type="checkbox" name="poisson" />Poisson
+							</p>
+							<p>Vous êtes à la cantine, que choisissez vous?<br/>
+								<input type="radio" name="cantine" value="jambon" />Jambon et pâtes<br/>
+								<input type="radio" name="cantine" value="poulet"/>Poulet et semoule<br/>
+								<input type="radio" name="cantine" value="poisson"/>Poisson et légumes
+							<p>De quel genre êtes vous?<br />
+								<select name="genre">
+									<option value="homme">homme</option>
+									<option value="femme">femme</option>
+									<option value="autre" selected>autre</option>
+								</select>
+							</p>
+						</fieldset>
+					</section>
+					<input type="submit" value="Envoyer" />
+				</form>
+	</body>
+</html>

@@ -4,6 +4,10 @@ body{
    background-image: url("background.jpeg"); 
 }
 
+*{
+    color: white;
+}
+
 .tout {
     max-width: 100%;
     margin: auto;
@@ -47,9 +51,6 @@ body{
 .en-tete{
     display: block;
     text-align: center;
-    border-width : 3px;
-    border : solid;
-    border-color : black;
 }
 
 .regle {
@@ -58,10 +59,9 @@ body{
     
 }
 
-.canvas{
+canvas{
     width: 800px;
     height: 600px;
-    margin : 10px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
