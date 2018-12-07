@@ -6,12 +6,12 @@ body{
     
 }
 .princip{
-
     background-color: brown;
+    display: inline-block;
 }
 .totem{
 width: width/4;
-height: height/4;
+height: 100px;
 float: top;
 
 }
