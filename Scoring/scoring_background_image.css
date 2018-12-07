@@ -1,13 +1,33 @@
 /* Emile Datrier Maxime Dumonteil */
 
 body{
-    background-color: #003399;
+    background-image: url(image/background.jpeg);
+    margin-top: 0px ;
+    
 }
+.princip{
 
+    background-color: brown;
+}
+.totem{
+width: width/4;
+height: height/4;
+float: top;
+
+}
+.principal{
+
+    width: 850px;
+    background-color: black;
+    
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
 .banniere {
     
 }
-
+/*
 #banniereG {
     border-width: 3px;
     background-color: aqua;
@@ -22,7 +42,7 @@ body{
     background-color: aqua;
     position: relative;
     margin-left: auto;
-}
+}*/ 
 
 .en-tete {
     /*
