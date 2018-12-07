@@ -1,0 +1,82 @@
+/* Emile Datrier Maxime Dumonteil */
+
+body{
+   background-image: url("background.jpeg"); 
+}
+
+.tout {
+    max-width: 100%;
+    margin: auto;
+}
+
+
+
+#banniereG {
+    margin-right : auto;
+    margin-left: 0;
+
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(-5px 5px 5px #222); 
+}
+
+#banniereD {
+    margin-left : auto;
+    margin-right: 0;
+
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222); 
+
+}
+
+.banniere {
+    width:auto;
+    height: 600px;
+    top: 0;
+
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 1200px)  {
+    #banniereG, #banniereD {
+        display: none;
+    }
+}
+
+
+.en-tete{
+    display: block;
+    text-align: center;
+    border-width : 3px;
+    border : solid;
+    border-color : black;
+}
+
+.regle {
+    display : inline ;
+    text-align : center;
+    
+}
+
+.canvas{
+    width: 800px;
+    height: 600px;
+    margin : 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    /* comme ça on le remarque */
+    background-color: pink;
+    
+
+}
+
+
+.principal {
+    text-align: center;
+}
+
+.img{
+    width: 80%;
+}
